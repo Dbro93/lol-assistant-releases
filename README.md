@@ -13,6 +13,15 @@ die App ihre Updates ohne Anmeldung herunterladen kann.
 3. Installiert wird nur für dein Benutzerkonto, es gibt also keine
    Administrator-Abfrage.
 
+## Beim ersten Start
+
+Die App fragt nach einem **Riot-API-Key**. Den bekommst du von der Person, die
+dir die App gegeben hat — einmal eintragen, neu starten, fertig.
+
+Der Key steckt bewusst nicht im Installer: alles, was hier zum Download liegt,
+kann jeder öffnen. So bleibt er bei dir auf dem Rechner, landet nur in der
+lokalen Datenbank und wird an niemanden außer Riot geschickt.
+
 ## Updates
 
 Nichts zu tun. Die App sucht beim Start selbst nach einer neuen Version, lädt sie
@@ -20,13 +29,7 @@ im Hintergrund und meldet sich erst, wenn sie bereit ist. Ein Klick auf **Jetzt
 neu starten** installiert sie in wenigen Sekunden; wer die App stattdessen
 einfach schließt, hat das Update beim nächsten Start.
 
-Accounts, Matches und Einstellungen bleiben bei einem Update erhalten.
-
-## Was du selbst brauchst
-
-Einen eigenen Riot-API-Key von
-[developer.riotgames.com](https://developer.riotgames.com/). Beim ersten Start
-unter **Einstellungen → Riot-Accounts** eintragen.
+Accounts, Matches, Einstellungen und der Key bleiben dabei erhalten.
 
 ---
 

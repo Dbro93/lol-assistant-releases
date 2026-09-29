@@ -15,11 +15,11 @@ die App ihre Updates ohne Anmeldung herunterladen kann.
 
 ## Beim ersten Start
 
-Die App fragt nach einem **Riot-API-Key**. Den bekommst du von der Person, die
-dir die App gegeben hat — einmal eintragen, neu starten, fertig.
+Die App fragt einmalig nach einem **Riot-API-Key** und startet danach neu.
+Ohne Key funktioniert sie nicht.
 
-Der Key steckt bewusst nicht im Installer: alles, was hier zum Download liegt,
-kann jeder öffnen. So bleibt er bei dir auf dem Rechner, landet nur in der
+Im Installer steckt bewusst kein Key: alles, was hier zum Download liegt, kann
+jeder öffnen. Der eingetragene Key bleibt auf dem Rechner, landet nur in der
 lokalen Datenbank und wird an niemanden außer Riot geschickt.
 
 ## Updates
@@ -33,4 +33,9 @@ Accounts, Matches, Einstellungen und der Key bleiben dabei erhalten.
 
 ---
 
-Privates Projekt. Nicht mit Riot Games verbunden.
+Privates Projekt für einen kleinen, privaten Nutzerkreis.
+
+LoL Assistant isn't endorsed by Riot Games and doesn't reflect the views or
+opinions of Riot Games or anyone officially involved in producing or managing
+Riot Games properties. Riot Games, and all associated properties are trademarks
+or registered trademarks of Riot Games, Inc.
